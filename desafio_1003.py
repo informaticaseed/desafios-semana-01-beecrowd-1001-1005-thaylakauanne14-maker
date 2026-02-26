@@ -11,7 +11,11 @@ Saída: Imprima a mensagem "SOMA" com todas as letras maiúsculas, com um espaç
 em branco antes e depois da igualdade seguido pelo valor correspondente à soma
 de A e B.
 """
+# Beecrowd 1003 - Soma Simples
 
-# Link do problema: https://judge.beecrowd.com/pt/problems/view/1003
+A = int(input())
+B = int(input())
 
-# Escreva sua solução abaixo
+SOMA = A + B
+
+print(f"SOMA = {SOMA}")
