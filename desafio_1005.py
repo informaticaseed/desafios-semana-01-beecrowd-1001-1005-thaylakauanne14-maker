@@ -14,7 +14,11 @@ Use variáveis de dupla precisão (double) e como todos os problemas, não esque
 de imprimir o fim de linha após o resultado, caso contrário, você receberá
 "Presentation Error".
 """
+# Beecrowd 1005 - Média 1
 
-# Link do problema: https://judge.beecrowd.com/pt/problems/view/1005
+A = float(input())
+B = float(input())
 
-# Escreva sua solução abaixo
+MEDIA = (A * 3.5 + B * 7.5) / 11
+
+print(f"MEDIA = {MEDIA:.5f}")
